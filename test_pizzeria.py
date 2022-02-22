@@ -7,7 +7,7 @@ def test_carte_pizza_is_not_empty():
     c = CartePizzeria()
     pizza = Mock()
     c.carte = [pizza]
-    assert c.is_empty()
+    assert c.is_empty() == False
     
 #test qui marche 1
 def test_carte_pizza_is_empty():
@@ -26,7 +26,7 @@ def test_carte_pizza_len_not_0():
     c = CartePizzeria()
     pizza = Mock()
     c.carte = [pizza]
-    assert c.nb_pizzas() == 0
+    assert c.nb_pizzas() == 1
 
 #test qui marche 3
 def test_carte_pizza_add_pizza_success():
