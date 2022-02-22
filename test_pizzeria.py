@@ -2,7 +2,7 @@ from unittest.mock import Mock
 from carte_pizzeria import CartePizzeria
 from mock import patch, PropertyMock
 
-#test qui pète 1
+#test qui pète 1 test
 def test_carte_pizza_is_not_empty():
     c = CartePizzeria()
     pizza = Mock()
