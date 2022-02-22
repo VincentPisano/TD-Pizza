@@ -2,7 +2,7 @@ from unittest.mock import Mock
 from carte_pizzeria import CartePizzeria
 from mock import patch, PropertyMock
 
-#test qui pète 1
+#test qui pète 1 plus pour l'intégration continue
 def test_carte_pizza_is_not_empty():
     c = CartePizzeria()
     pizza = Mock()
@@ -21,7 +21,7 @@ def test_carte_pizza_len_0():
     c.carte = []
     assert c.nb_pizzas() == 0
     
-#test qui pète 2
+#test qui pète 2 plus pour l'intégration continue
 def test_carte_pizza_len_not_0():
     c = CartePizzeria()
     pizza = Mock()
