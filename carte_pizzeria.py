@@ -1,8 +1,9 @@
 class CartePizzeria:
     
-    carte = []
+   
     
     def __init__():
+        carte = []
         pass
     
     def is_empty(self):
